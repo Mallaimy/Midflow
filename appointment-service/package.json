@@ -1,0 +1,19 @@
+{
+  "name": "appointment-service",
+  "version": "1.0.0",
+  "description": "MediFlow Appointment Service",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.540.0",
+    "express": "^4.18.3",
+    "pg": "^8.11.3",
+    "uuid": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
