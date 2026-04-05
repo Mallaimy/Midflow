@@ -1,0 +1,17 @@
+{
+  "name": "notification-service",
+  "version": "1.0.0",
+  "description": "MediFlow Notification Service",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-ses": "^3.540.0",
+    "@aws-sdk/client-sqs": "^3.540.0",
+    "express": "^3.21.2"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
